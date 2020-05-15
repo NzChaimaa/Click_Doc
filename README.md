@@ -60,7 +60,7 @@ le projet est supdivisé en plusieurs package :
 
 ## AUTHENTIFICATION :
 ![volé patient](Patient.png)
-![volé medecin](Medecin.png)
+![volé medecin](Medcin.png)
 ![volé admin](Admin1.png)
 
 Pour consommer API de registrement il faut utiliser le lien :
