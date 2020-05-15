@@ -1,4 +1,4 @@
-# Projet gestion des rendez-vous patient medecin
+# Projet gestion des rendez-vous médicaux patient medecin
 ## 1 - Contexte et définition du projet:
 
 le projet est une plateforme web qui permet de gérer la prise des rendez-vous pour les pataient d'une part et d'autre part permet au medecin de gerer leurs patients.Cette palatefoeme destiné à tous tous les catégories des patients et des médecins.
