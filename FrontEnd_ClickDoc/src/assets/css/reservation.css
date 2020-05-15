@@ -1,0 +1,137 @@
+/* CUSTOM CSS */
+
+.date-range-calendar {
+  margin: auto auto 0;
+  border: 1px solid #eee;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  font-family: Arial;
+  position: relative;
+}
+
+
+.date-range-calendar .range-calendar #date-range-preview,
+.date-range-calendar .range-calendar #date-range-next {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  border: 0;
+  background: white;
+  cursor: pointer;
+  border-top: 1px solid #eee;
+  z-index: 1;
+  color: #888;
+}
+
+.date-range-calendar .range-calendar #date-range-preview:focus,
+.date-range-calendar .range-calendar #date-range-next:focus {
+  outline: none;
+  border: none;
+
+}
+
+
+.date-range-calendar #date-range-next {
+  border-left: 1px solid #eee;
+}
+
+.range-calendar {
+  clear: both;
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.range-calendar .calendar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.range-calendar .calendar .cell {
+  width: 7rem;
+  padding: 0px 20px;
+  margin: 15px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 2rem;
+  text-align: center;
+  color: rgb(245, 245, 245);
+  background: #3695EB;
+  transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) 300ms;
+}
+
+
+
+.date-range-calendar .range-calendar .calendar .cell.selected {
+  background: #8dc63f ;
+}
+.range-calendar .calendar .cell:hover{
+  background: #59A9A6 ;
+
+}
+
+.range-calendar .calendar .cell .day-month {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.range-calendar .calendar .cell .day {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.range-calendar .calendar .cell .month {
+  width: 100%;
+  font-size: 12px;
+  z-index: 1;
+  text-transform: uppercase;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.selected-date-area {
+  margin: 50px auto;
+  padding: 50px 30px;
+  border: 1px solid #eee;
+  background: white;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.selected-date-area > span {
+  font-size: 1.3rem;
+  font-family: Arial;
+  color: #666;
+}
+
+.hours{
+  border: 1px solid #eee;
+  margin: 20px auto;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.hours .hours-element{
+  width: 65px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+}
+.hours .hours-element{
+  background-color: #8dc63f;
+}

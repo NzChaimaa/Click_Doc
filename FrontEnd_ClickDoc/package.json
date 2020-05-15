@@ -1,0 +1,53 @@
+{
+  "name": "gestion-rdv",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/icons": "^4.5.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "js-cookie": "^2.2.1",
+    "material-table": "^1.55.0",
+    "moment": "^2.24.0",
+    "rc-input-number": "^4.5.3",
+    "react": "^16.12.0",
+    "react-awesome-slider": "^3.2.1",
+    "react-big-calendar": "^0.23.0",
+    "react-big-scheduler": "^0.2.7",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-event-calendar": "^0.3.0",
+    "react-icons": "^3.8.0",
+    "react-moment": "^0.9.7",
+    "react-numeric-input": "^2.2.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "react-token-auth": "^1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8015"
+}
