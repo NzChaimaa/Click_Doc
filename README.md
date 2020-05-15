@@ -31,7 +31,7 @@ Les délais sont estimés vers 15 jours.
 
 ## 5 - USE CASE:
 
-![cas d’utilisation géneral](general.png)
+![cas d’utilisation géneral](genrale.png)
 
 ## 6 - Diagramme de class :
 
