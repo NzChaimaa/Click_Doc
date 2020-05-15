@@ -68,7 +68,7 @@ Pour consommer API de registrement il faut utiliser le lien :
 http://localhost:3000/public/inscription-medecin
 ![register page medecin](InscriptionMedcin.png)
 http://localhost:3000/public/inscription-patient
-![register page patient](InscriptionPatient.png)
+![register page patient](InscriptionPatient4.PNG)
 http://localhost:3000/public/inscription-admin
 ![register page ](Admin3.PNG)
 
