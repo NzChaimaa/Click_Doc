@@ -54,6 +54,7 @@ le projet est supdivisé en plusieurs package :
 * package.dao : contient des interface qui hérite de l'interface JpaRepository qui nous offrir des opérations crus  pour manipuler la base de données,
 * package.service : contient notre logique métier.
 * packege.controller : contient notre REST API.
+*packege.Config : pour la configuration de JWT.
 
 ## Les API à consommer :
 
