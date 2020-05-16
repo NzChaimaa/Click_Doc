@@ -45,7 +45,7 @@ le port de lancement coté backend : http://localhost:8015/
 
 ## Les packages utilisé :
 
-Spring MVC ,Spring Ioc, Spring DataSpring sécurité, Spring Boot.
+Spring MVC ,Spring Ioc, Spring Data, Spring sécurité, Spring Boot.
 
 ## Conception de Code :
 
