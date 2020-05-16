@@ -35,7 +35,7 @@ Les délais sont estimés vers 15 jours.
 
 ## 6 - Diagramme de class :
 
-![diagramme de class](DigrClass.png)
+![diagramme de class](screenshots/DigrClass.png)
 
 # Projet gestion des rendez-vous patient medecin coté BE/FE
 
@@ -54,23 +54,23 @@ le projet est supdivisé en plusieurs package :
 * package.dao : contient des interface qui hérite de l'interface JpaRepository qui nous offrir des opérations crus  pour manipuler la base de données,
 * package.service : contient notre logique métier.
 * packege.controller : contient notre REST API.
-*packege.Config : pour la configuration de JWT.
+* packege.Config : pour la configuration de JWT.
 
 ## Les API à consommer :
 
 ## AUTHENTIFICATION :
-![volé patient](Patient.png)
-![volé medecin](Medcin.png)
-![volé admin](Admin1.png)
+![volé patient](screenshots/Patient.png)
+![volé medecin](screenshots/Medcin.png)
+![volé admin](screenshots/Admin1.png)
 
 Pour consommer API de registrement il faut utiliser le lien :
 
 http://localhost:3000/public/inscription-medecin
-![register page medecin](InscriptionMedcin.png)
+![register page medecin](screenshots/InscriptionMedcin.png)
 http://localhost:3000/public/inscription-patient
-![register page patient](InscriptionPatient4.PNG)
+![register page patient](screenshots/InscriptionPatient4.PNG)
 http://localhost:3000/public/inscription-admin
-![register page ](Admin3.PNG)
+![register page ](screenshots/Admin3.PNG)
 
 
 
@@ -78,52 +78,52 @@ Pour s'authentifier il faut utiliser le lien :
 
  
 http://localhost:3000/public/authentification-patient
-![login page patient](LoginPatient.png)
-![login page patient](PageLoginPatient.png)
+![login page patient](screenshots/LoginPatient.png)
+![login page patient](screenshots/PageLoginPatient.png)
 http://localhost:3000/public/authentification-medcin
-![login page medecin](LoginMedcin.png)
-![login page medecin](dashboardmedecin.png)
+![login page medecin](screenshots/LoginMedcin.png)
+![login page medecin](screenshots/dashboardmedecin.png)
 http://localhost:3000/public/authentification-admin
-![login page medecin](Admin2.PNG)
-![login page medecin](Admin4.PNG)
+![login page medecin](screenshots/Admin2.PNG)
+![login page medecin](screenshots/Admin4.PNG)
 
 ## Cas d'utilisation pour un Patient
 ### Rechercher un médecin :
 
 http://localhost:3000/patient/medecin
-![résultat de recherche](rechercheMedecin.png)
+![résultat de recherche](screenshots/rechercheMedecin.png)
 
 ### Accéder à un profil d'un médecin et prendre un rendez-vous :
 http://localhost:3000/patient/medecin/26
-![afficher le profil sélectioner](profilmedcin.png)
-![prise du rdv](appointment.png)
-![saisir la motif](appointmentmotif.png)
+![afficher le profil sélectioner](screenshots/profilmedcin.png)
+![prise du rdv](screenshots/appointment.png)
+![saisir la motif](screenshots/appointmentmotif.png)
 
 ### Voir la liste des rendez-vous prise :
 http://localhost:3000/patient/rendez-vous
-![afficher la liste des rendez-ous prise](rdv.png)
+![afficher la liste des rendez-ous prise](screenshots/rdv.png)
 
 ## Cas d'utilisation pour un Médecin
 ### Afficher la liste des consultations
 http://localhost:3000/medcin/calandrier
-![liste des consulatations](Calandrer.png)
+![liste des consulatations](screenshots/Calandrer.png)
 
 ### Gérer l'horaire de travail du médecin
 http://localhost:3000/medecin/heure-disponibilite
-![diponibilité](listJourHeure.png)
-![diponibilité](listJourHeure1.png)
-![diponibilité](listJourHeure3.png)
+![diponibilité](screenshots/listJourHeure.png)
+![diponibilité](screenshots/listJourHeure1.png)
+![diponibilité](screenshots/listJourHeure3.png)
 
 ## Cas d'utilisation pour l'admin
 ### Gérer les spécilaitées des médecins
 http://localhost:3000/admin/specialite
-![ajouter supprimer modifier les spécialitées](specialite.png)
-![ajouter supprimer modifier les spécialitées](ajouterspecialite.PNG)
-![ajouter supprimer modifier les spécialitées](modification.PNG)
-![ajouter supprimer modifier les spécialitées](delete.PNG)
+![ajouter supprimer modifier les spécialitées](screenshots/specialite.png)
+![ajouter supprimer modifier les spécialitées](screenshots/ajouterspecialite.PNG)
+![ajouter supprimer modifier les spécialitées](screenshots/modification.PNG)
+![ajouter supprimer modifier les spécialitées](screenshots/delete.PNG)
 ### Consulter la liste des médecins inscrivirent
 http://localhost:3000/admin/medecins
-![liste des medecin inscrit](medecin.png)
+![liste des medecin inscrit](screenshots/medecin.png)
 
 
 ## API documentation
